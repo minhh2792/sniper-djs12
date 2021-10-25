@@ -68,7 +68,7 @@ client.on('message', async (message) => {
 
     const embed = new MessageEmbed()
       .setAuthor(snipe.author.tag, snipe.author.displayAvatarURL())
-      .setColor("FFD5FB")
+      .setColor("C4FE91")
       .setTimestamp(snipe.createdAt);
     snipe.content ? embed.setDescription(snipe.content) : null;
     snipe.image ? embed.setImage(snipe.image) : null;
@@ -86,7 +86,7 @@ client.on('message', async (message) => {
     const embed = new MessageEmbed()
       .setAuthor(snipe.author.tag, snipe.author.displayAvatarURL())
       .setDescription(snipe.content)
-      .setColor("FFD5FB")
+      .setColor("C4FE91")
       .setTimestamp(snipe.createdAt);
 
     await message.channel.send(embed)
@@ -96,7 +96,7 @@ client.on('message', async (message) => {
   if (message.content === `${PREFIX}help`) {
     let embed = new MessageEmbed()
       .setAuthor("Danh sách lệnh", client.user.displayAvatarURL())
-      .setColor("FFD5FB")
+      .setColor("C4FE91")
       .addField('`snipe`', 'Xóa tin nhắn vừa xóa')
 			.addField('`editsnipe`', 'Xem tin nhắn vừa sửa')
       .setFooter(`Dùng ${PREFIX}<lệnh>`);
