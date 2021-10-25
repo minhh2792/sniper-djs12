@@ -3,7 +3,7 @@ const { Client, Intents, MessageEmbed } = require("discord.js");
 const client = new Client();
 
 //Config
-let PREFIX = "!"
+let PREFIX = "pls"
 
 //Shit
 const snipes = {};
