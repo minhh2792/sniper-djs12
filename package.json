@@ -1,0 +1,24 @@
+{
+  "name": "minevnsniper",
+  "version": "1.0.0",
+  "description": "cool description here",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhh2792/minevn_sniper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhh2792/minevn_sniper/issues"
+  },
+  "homepage": "https://github.com/minhh2792/minevn_sniper#readme"
+}
