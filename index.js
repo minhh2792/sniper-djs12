@@ -99,7 +99,7 @@ client.on('message', async (message) => {
       .setColor("C4FE91")
       .addField('`snipe`', 'Xóa tin nhắn vừa xóa')
 			.addField('`editsnipe`', 'Xem tin nhắn vừa sửa')
-      .setFooter(`Dùng ${PREFIX}<lệnh>`);
+      .setTimestamp();
 
     message.channel.send(embed)
   }
