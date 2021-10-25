@@ -64,7 +64,7 @@ client.on('message', async (message) => {
 
     const snipe = snipes[channelID];
 
-    if (!snipe) return message.reply("hong có gì ở đây ._.");
+    if (!snipe) return message.channel.send("Hong có gì ở đây ._.");
 
     const embed = new MessageEmbed()
       .setAuthor(snipe.author.tag, snipe.author.displayAvatarURL())
@@ -81,7 +81,7 @@ client.on('message', async (message) => {
 
     const snipe = editSnipes[channelID];
 
-    if (!snipe) return message.reply("hong có gì ở đây ._.");
+    if (!snipe) return message.channel.send("Hong có gì ở đây ._.");
 
     const embed = new MessageEmbed()
       .setAuthor(snipe.author.tag, snipe.author.displayAvatarURL())
