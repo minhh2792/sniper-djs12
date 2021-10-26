@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/minhh2792/minevn_sniper.git"
+    "url": "git+https://github.com/minhh2792/sniper-djs12-converted.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/minhh2792/minevn_sniper/issues"
+    "url": "https://github.com/minhh2792/sniper-djs12-converted/issues"
   },
-  "homepage": "https://github.com/minhh2792/minevn_sniper#readme"
+  "homepage": "https://github.com/minhh2792/sniper-djs12-converted#readme"
 }
