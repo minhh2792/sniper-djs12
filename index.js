@@ -97,7 +97,7 @@ client.on('message', async (message) => {
     let embed = new MessageEmbed()
       .setAuthor("Danh sách lệnh", client.user.displayAvatarURL())
       .setColor("C4FE91")
-      .addField('`snipe`', 'Xóa tin nhắn vừa xóa')
+      .addField('`snipe`', 'Xem tin nhắn vừa xóa')
 			.addField('`editsnipe`', 'Xem tin nhắn vừa sửa')
       .setTimestamp();
 
