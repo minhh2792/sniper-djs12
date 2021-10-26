@@ -10,12 +10,6 @@ const snipes = {};
 const editSnipes = {};
 const reactionSnipes = {};
 
-const formatEmoji = (emoji) => {
-  return !emoji.id || emoji.available
-    ? emoji.toString() // bot has access or unicode emoji
-    : `[:${emoji.name}:](${emoji.url})`; // bot cannot use the emoji
-};
-
 client.on("ready", () => {
   console.log(`[sniper] :: Logged in as ${client.user.tag}.`);
   client.user.setActivity(`your message`, {
@@ -108,5 +102,3 @@ client.on('message', async (message) => {
 const token = process.env['TOKEN']
 
 client.login(token);
-
-
