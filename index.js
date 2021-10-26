@@ -39,17 +39,6 @@ client.on("messageUpdate", async (oldMessage, newMessage) => {
   };
 });
 
-client.on("messageReactionRemove", async (reaction, user) => {
-  if (reaction.partial) reaction = await reaction.fetch();
-
-  reactionSnipes[reaction.message.channel.id] = {
-    user: user,
-    emoji: reaction.emoji,
-    messageURL: reaction.message.url,
-    createdAt: Date.now(),
-  };
-});
-
 client.on('message', async (message) => {
   let channelID = message.channel.id
 
