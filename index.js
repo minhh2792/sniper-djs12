@@ -1,11 +1,11 @@
 //Library
-const { Client, Intents, MessageEmbed } = require("discord.js");
+const { Client, MessageEmbed } = require("discord.js");
 const client = new Client();
 
 //Config
 let PREFIX = "+"
 
-//Shit
+//Object
 const snipes = {};
 const editSnipes = {};
 const reactionSnipes = {};
@@ -89,5 +89,4 @@ client.on('message', async (message) => {
 });
 
 const token = process.env['TOKEN']
-
 client.login(token);
