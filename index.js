@@ -43,7 +43,7 @@ client.on('message', async (message) => {
   let channelID = message.channel.id
 
   //Snipe
-  if (message.content === `${PREFIX}snipe`) {
+  if (message.content === `${PREFIX}snipe` || message.content === `${PREFIX}s`) {
 
     const snipe = snipes[channelID];
 
@@ -60,7 +60,7 @@ client.on('message', async (message) => {
   }
 
   //edit snipe
-  if (message.content === `${PREFIX}editsnipe`) {
+  if (message.content === `${PREFIX}editsnipe` || message.content === `${PREFIX}es`) {
 
     const snipe = editSnipes[channelID];
 
